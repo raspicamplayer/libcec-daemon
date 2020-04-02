@@ -145,6 +145,7 @@ Cec::Cec(const char * name, CecCallback * callback)
 
 	config.callbackParam           = callback;
 	config.callbacks               = &callbacks;
+	config.bActivateSource	       = false;
 }
 
 Cec::~Cec() {}
